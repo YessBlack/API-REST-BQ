@@ -1,9 +1,169 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "id": "DXYyWie",
+      "name": "Café americano",
+      "price": 5,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUDXwiPJjkNEnvN-ex16rZQBQTxNy8f3Pm6g&usqp=CAU",
+      "type": "breakFast",
+      "dataEntry": "2023-03-08T20:45:59.493Z"
+    },
+    {
+      "id": "UUzRFl5",
+      "name": "Café con leche",
+      "price": 7,
+      "img": "https://www.cardamomo.news/__export/1650821811967/sites/debate/img/2022/04/24/mokachino.jpeg_172596871.jpeg",
+      "type": "breakFast",
+      "dataEntry": "2023-03-08T20:46:43.491Z"
+    },
+    {
+      "id": "ACaf9b7",
+      "name": "Sandiwich jamón y queso",
+      "price": 10,
+      "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/panini-sandwiches-royalty-free-image-1588773746.jpg?resize=980:*",
+      "type": "breakFast",
+      "dataEntry": "2023-03-08T20:47:18.180Z"
+    },
+    {
+      "id": "LYyFCM2",
+      "name": "Jugo natural",
+      "price": 7,
+      "img": "https://diabeteschile.cl/wp-content/uploads/2019/02/naranaja-jugo2.jpg",
+      "type": "breakFast",
+      "dataEntry": "2023-03-08T20:47:54.773Z"
+    },
+    {
+      "id": "zVzDie1",
+      "name": "\tHamburguesa Simple",
+      "price": 5,
+      "img": "https://tofuu.getjusto.com/orioneat-prod-resized/FEMFKmwoA9uDXtPeo-1200-1200.webp",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:48:33.253Z"
+    },
+    {
+      "id": "Zc8vwJB",
+      "name": "Hamburgesa Doble",
+      "price": 15,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn9rKl-xqxEisaiobSz3LvpPAo3Sr8MdKzHw&usqp=CAU",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:49:15.616Z"
+    },
+    {
+      "id": "RkSsXSJ",
+      "name": "Papas Fritas",
+      "price": 5,
+      "img": "https://scm-assets.constant.co/scm/unilever/d806c3b80def8183f2c1c0e93e7fb11b/84b57886-fee2-4f98-8920-027f8afd654c.png",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:49:52.322Z"
+    },
+    {
+      "id": "_TUtHsR",
+      "name": "Aros de cebolla",
+      "price": 5,
+      "img": "https://tofuu.getjusto.com/orioneat-prod-resized/ECvKh8Wf2z7YFj8vp-1200-1200.webp",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:50:36.417Z"
+    },
+    {
+      "id": "kkla58P",
+      "name": "Agua 500 ml",
+      "price": 5,
+      "img": "https://www.japonya.cl/carta/liquidos/agua-600.jpg",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:51:11.584Z"
+    },
+    {
+      "id": "NZ5WGV2",
+      "name": "Agua 750 ml",
+      "price": 7,
+      "img": "https://www.japonya.cl/carta/liquidos/agua-600.jpg",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:51:32.923Z"
+    },
+    {
+      "id": "mI-64AI",
+      "name": "Bebida 500 ml",
+      "price": 7,
+      "img": "https://www.aquasushi.cl/wp-content/uploads/aqua-latas-coca.jpg",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:52:04.824Z"
+    },
+    {
+      "id": "uTOJ-HN",
+      "name": "Bebida 750 ml",
+      "price": 10,
+      "img": "https://www.aquasushi.cl/wp-content/uploads/aqua-latas-coca.jpg",
+      "type": "lunch",
+      "dataEntry": "2023-03-08T20:52:26.403Z"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "orders": [],
+  "users": [
+    {
+      "email": "nati@burguerqueen.com",
+      "password": "$2a$10$/apBxjMiNjJwRustjaCuqOrHrlw5uqIZjnlXmNRX1fQZ6pvbzg4u2",
+      "name": "Nati",
+      "roles": {
+        "admin": true,
+        "waiter": false,
+        "chef": false
+      },
+      "id": 8
+    },
+    {
+      "name": "Facundo C",
+      "email": "faku@burguerqueen.com",
+      "password": "$2a$10$ueQZp.BLvBgeExGMIv4.0ezAtWLHDL8WwBRjSVFmFfJfZPd88d1uS",
+      "roles": {
+        "admin": false,
+        "waiter": false,
+        "chef": true
+      },
+      "id": 9
+    },
+    {
+      "name": "Bruno Cisternas",
+      "email": "bruno@burguerqueen.com",
+      "password": "$2a$10$KJxW7YfG5rf/EE9m1FPCmuFJgkH7O5C5dqpfU7tei8brSdkr9kxou",
+      "roles": {
+        "admin": false,
+        "waiter": true,
+        "chef": false
+      },
+      "id": 10
+    },
+    {
+      "name": "Nati",
+      "email": "anyegar36@gmail.com",
+      "password": "$2a$10$iIvphgD4CbMz/yF1BCMw/emI97.9awAmWhBhhJ/X6ODzR1ZT9MMBW",
+      "roles": {
+        "admin": false,
+        "waiter": false,
+        "chef": true
+      },
+      "id": 11
+    },
+    {
+      "email": "angelica@burguerqueen.com",
+      "password": "$2a$10$FJzIks5kRYsomIPNGk63i.fzaamgOngYklMnDGmF7ZQGFAd7epJt6",
+      "name": "Angelica",
+      "roles": {
+        "admin": false,
+        "waiter": false,
+        "chef": true
+      },
+      "id": 12
+    },
+    {
+      "email": "ama@burguerqueen.com",
+      "password": "$2a$10$d0tdD7b/DZI/Ji1ali1BEOJxXCctBIPRbTXEKD.Ti3h6JIqPtHPeK",
+      "name": "Amarilis",
+      "roles": {
+        "admin": false,
+        "waiter": true,
+        "chef": false
+      },
+      "id": 13
+    }
+  ]
 }
